@@ -1,0 +1,68 @@
+/* Genel ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f485;
+}
+
+/* Başlık ayarları */
+header {
+    background-color: #af6565b0;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigasyon ayarları */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #444444;
+    padding: 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin: 5px;
+} 
+
+nav a:hover {
+    background-color: #990011;
+}
+
+/* Bölüm ve kart ayarları */
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section h2 {
+    color: #333;
+}
+
+.card {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 250px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card p {
+    color: #666;
+}
