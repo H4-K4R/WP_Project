@@ -218,3 +218,81 @@ main {
 .login-form button:hover {
     background-color: #555;
 }
+
+/* Contact section styles */
+.contact-section {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.contact-section div {
+    width: 45%; /* Make each section take half of the available space */
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.contact-section h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraph styles */
+.contact-section p {
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+/* About section styles */
+.about-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-section p {
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* FAQ section styles */
+.faq-section {
+    flex: 1;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-item h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.faq-item a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
