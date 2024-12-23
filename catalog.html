@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><h1>BahBooks</h1></a>
+        <h2>Book Catalog</h2>
+    </header>
+;
+    <div class="filter-container">
+        <!-- Filters Section -->
+        <form class="filter-form">
+            <div class="filter-group">
+                <label for="genre">Genre:</label>
+                <select id="genre" name="genre">
+                    <option value="all">All</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="mystery">Mystery</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" placeholder="Search by author">
+            </div>
+
+            <div class="filter-group">
+                <label for="price">Price Range:</label>
+                <input type="number" id="min-price" name="min-price" placeholder="Min" min="0">
+                <input type="number" id="max-price" name="max-price" placeholder="Max" min="0">
+            </div>
+
+            <button type="submit" class="filter-button">Apply Filters</button>
+        </form>
+    </div>
+
+    <!-- Books grid -->
+    <section class="catalog">
+        <div class="book-item">
+            <img src="assets/book1.jpg" alt="Book 1">
+            <h3>Şeker Portakalı</h3>
+            <p>Author: Jose Mauro De Vasconcelos</p>
+            <p>Price: $10</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book-item">
+            <img src="assets/book2.jpg" alt="Book 2">
+            <h3>Küçük Prens</h3>
+            <p>Author: Antoine de Saint-Exupery</p>
+            <p>Price: $12</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book-item">
+            <img src="assets/book3.jpg" alt="Book 3">
+            <h3>Hayvan Çiftliği</h3>
+            <p>Author: George Orwell</p>
+            <p>Price: $8</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book-item">
+            <img src="assets/book4.jpg" alt="Book 4">
+            <h3>Son Kitapçı</h3>
+            <p>Author: Emma Young</p>
+            <p>Price: $9.50
+            </p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    ;
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 BahBooks. All rights reserved.</p>
+            <a href="contact.html">Contact Us</a> | 
+            <a href="about.html">About Us</a> | 
+            <a href="returns.html">Returns & Exchanges</a>
+        </div>
+    </footer>
+</body>
+</html>
